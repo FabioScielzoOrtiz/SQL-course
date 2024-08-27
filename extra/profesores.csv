@@ -1,6 +1,6 @@
-profesor_id,nombre,apellido,materia
-101,Ana,López,Matemáticas
-102,Luis,Rodríguez,Historia
-103,Elena,Martínez,Ciencias
-104,Manuel,González,Inglés
-105,Rosa,Torres,Educación Física
+profesor_id,nombre,apellido,materia,edad
+p1,Ana,López,Matemáticas,27
+p2,Luis,Rodríguez,Historia,42
+p3,Elena,Martínez,Ciencias,40
+p4,Manuel,González,Inglés,29
+p5,Rosa,Torres,Educación Física,32

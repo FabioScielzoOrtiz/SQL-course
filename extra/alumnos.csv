@@ -1,6 +1,6 @@
-alumno_id,nombre,apellido,edad,grado
-1,Juan,Pérez,15,10
-2,María,Gómez,14,9
-3,Carlos,Sánchez,16,11
-4,Lucía,Fernández,17,12
-5,Andrés,Martínez,15,10
+alumno_id,nombre,apellido,edad,DNI
+a1,Juan,Pérez,15,505023X
+a2,María,Gómez,14,654578J
+a3,Carlos,Sánchez,16,101545B
+a4,Lucía,Fernández,17,202541X
+a5,Andrés,Martínez,15,5305023W
