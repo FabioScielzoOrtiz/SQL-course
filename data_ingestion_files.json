@@ -10,6 +10,23 @@
     {
         "table_name": "Jena_climate",
         "url": "https://raw.githubusercontent.com/FabioScielzoOrtiz/temperature_forecasting-Book/main/jena_climate_cleaned.csv"
+    },
+    {
+        "table_name": "customer_data",
+        "url": "https://raw.githubusercontent.com/FabioScielzoOrtiz/SQL-course/main/extra/customers_data.csv"
+    },
+    {
+        "table_name": "alumnos",
+        "url": "https://raw.githubusercontent.com/FabioScielzoOrtiz/SQL-course/main/extra/alumnos.csv "
+    }
+    ,
+    {
+        "table_name": "profesores",
+        "url": "https://raw.githubusercontent.com/FabioScielzoOrtiz/SQL-course/main/extra/profesores.csv"
+    },
+    {
+        "table_name": "examenes",
+        "url": "https://raw.githubusercontent.com/FabioScielzoOrtiz/SQL-course/main/extra/examenes.csv"
     }
 ]
 
