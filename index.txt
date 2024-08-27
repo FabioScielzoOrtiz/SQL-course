@@ -1,0 +1,13 @@
+1) Establecer conexión con PosgreSQL a través de sqlalchemy --> Usar SQL con Python sobre bases de datos alojadas en PosgreSQL
+
+2) Crear/Ingestar tablas
+
+   2.1) Ingestar tablas predefinidas (datos ya recopilados)
+   2.2) Crear nuevas tablas manualmente
+        2.2.1) A través de la ingesta de un CSV's creados manualmente
+        2.2.2) Usando el propio SQL
+
+3) Operaciones SQL sobre tablas
+
+   3.1) Vista completa de una tabla
+   3.2) Vista parcial de una tabla

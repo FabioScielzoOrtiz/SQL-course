@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+
+  postgres:
+    image: postgres:13
+    container_name: postgres-container
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: My_Database
+    volumes:
+      - ./my_postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - postgres-network
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin-container
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "8080:80"
+    networks:
+      - postgres-network
+
+  data-ingestion:
+    build: .
+    container_name: data-ingestion-container
+    volumes:
+      - ./data_ingestion_files.json:/app/data_ingestion_files.json
+    networks:
+      - postgres-network
+    depends_on:
+      - postgres
+    command: >
+      --user=root --password=root --host=postgres --port=5432
+      --db=My_Database --config=/app/data_ingestion_files.json
+
+networks:
+  postgres-network:

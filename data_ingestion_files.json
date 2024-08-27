@@ -1,0 +1,17 @@
+[
+    {
+        "table_name": "madrid_houses",
+        "url": "https://raw.githubusercontent.com/FabioScielzoOrtiz/Modeling_Madrid_Houses_Prices/main/madrid_houses.csv"
+    },
+    {
+        "table_name": "body_fat",
+        "url": "https://raw.githubusercontent.com/FabioScielzoOrtiz/body_fat_prediction-Book/main/BodyFat_NaNs.csv"
+    },
+    {
+        "table_name": "Jena_climate",
+        "url": "https://raw.githubusercontent.com/FabioScielzoOrtiz/temperature_forecasting-Book/main/jena_climate_cleaned.csv"
+    }
+]
+
+
+
